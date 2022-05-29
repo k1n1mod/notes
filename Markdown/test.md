@@ -1,27 +1,51 @@
-# Meine erste Markdown Datein
+# Erste Schritte mit Markdown
 
-Mit '#' erseugt man Überschriften
+Diese Datei enthält unsere ersten Schritte mit Markdown.
 
-## Kleiner Unterschrifft
+Wir benutzen hier nur CommonMark.
 
-Mit '##' Unterüberschriften  oder mehr '##' erzeugen
+## Der erste Schritt: Überschriften
 
-Mit '''' kann man den Code kursiv anzeigen lassen, für besser darstellung
+Unter-Überschriften können mit dem `##` (oder beliebig mehr `#`-Zeichen)
+notiert werden.
 
-## Aufzählung
+## Der zweite Schritt: Aufzählungen
+
+Was sind Beispiel für Markup Languages:
 - Markdown
-  * CommmonMark
-  * GitHub-flavord Markdown
+  * CommonMark
+  * GitHub-flavored Markdown
+- LaTeX
 - HTML
-- CSV
 
 ----
-Anleitung
+
+Anleitung wie man Markdown Dateien erstellt:
 1. Editor öffnen
-    1. gvim
-    2. emacs
-    3. nano
-    4. gedit
-2. Test mit Markdown schreiben
+   1. gvim
+   2. emacs
+   3. nano
+   4. gedit
+2. Text mit Markdown schreiben
 3. Datei mit Endung `.md` speichern.
-4. Beispielweise mit Pandoc in `html` konvertieren
+4. Beispielsweise mit Pandoc in `html` konvertieren.
+
+## Hervorhebungen
+
+Wir schreiben normalen Text. Einzelne Wörter können *kursiv* oder **fett** und
+***fett-kursiv***.
+
+```
+**fett**
+```
+
+## Links 
+
+Die hier verwendete Standardisierung von Markdown heißt [CommonMark](https://commonmark.org).
+
+Das Logo von Markdown findet sich im [GitHub Repository][1] von dcurtis.
+
+![Markdown Logo][2]
+
+[1]: https://github.com/dcurtis/markdown-mark
+[2]: https://github.com/dcurtis/markdown-mark/blob/master/png/208x128-solid.png
