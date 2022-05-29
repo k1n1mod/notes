@@ -1,0 +1,31 @@
+Commands with PS
+
+//<--------------------------files-------------------------->
+
+//create new file
+New-Item '<path>\<fileName>.<fileFormat>'
+
+//add content to file
+Set-Content '<path>\<fileName>.<fileFormat>' '<content>'
+
+//get content from file
+Get-Content '<path>\<fileName>.<fileFormat>'
+
+//delete file
+Remove-Item '<path><fileName>.<fileFormat>'
+
+//move file to other directory
+move <fileName> <pathdestinationFolder>
+
+//<---------------------------------------------------->
+
+//<--------------------------folder-------------------------->
+//create new folder || short version
+New-Item -Path '<path>\<folderName>' -ItemType Directory || mkdir <folderName>
+
+//delete folder || short version
+Remove-Item -Path '<path>\<folderName>' || rmdir <path>
+
+//delete more than one folder
+Remove-Item -Path '<path>\<folderName>' -Recurse
+//<---------------------------------------------------->
