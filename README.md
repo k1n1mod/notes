@@ -24,3 +24,4 @@
 
 [GitHub Repository][5]
 [5]: https://github.com/dcurtis/markdown-mark
+[CommonMark](https://commonmark.org)
