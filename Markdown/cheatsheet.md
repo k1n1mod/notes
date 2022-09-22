@@ -58,6 +58,11 @@ These are the elements outlined in John Gruber’s original design document. All
 
 These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
 
+### Notebox
+
+**_NOTE:_**
+
+
 ### Table
 
 | Syntax | Description |
